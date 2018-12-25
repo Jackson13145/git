@@ -11,7 +11,12 @@ git commit -m 'name'
 git checkout 哈希值 //用于切换到某个快照
 ```
 
-### 三、查找哪个commit代码提交引入了错误
+### 三、撤销
+```js
+git revert <commit>
+```
+
+### 四、查找哪个commit代码提交引入了错误
 ```js
 git bisect
 ```
@@ -39,7 +44,7 @@ git bisect bad // 自动切换到good~bad中间的commit，从而再次查看效
 ```js
 git bisect reset // 退出查错，回到最近一次的代码提交
 ```
-### 四、rebase
+### 五、rebase
 #### 1、合并多个本地commit
 ```js
 git rebase -i 哈希值
