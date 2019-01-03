@@ -68,3 +68,8 @@ git push -f origin 本地分支名
 ```js
 git cherry-pick [commit]
 ```
+### 六、delete 远程&本地分支
+```js
+git branch -d <branchName>  //本地
+git push origin --delete <branchName> //远程
+```
