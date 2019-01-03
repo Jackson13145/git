@@ -70,6 +70,6 @@ git cherry-pick [commit]
 ```
 ### 六、delete 远程&本地分支
 ```js
-git branch -d <branchName>  //本地
+git branch -d <branchName>  //本地 快捷键：gbd
 git push origin --delete <branchName> //远程
 ```
